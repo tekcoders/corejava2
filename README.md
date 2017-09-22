@@ -1,22 +1,23 @@
-# Programming Challenge 2
+# Programming Challenge 1
 
-Programming challenge 2 contains 3 questions, which you can find in the src folder. 
+This repository contains the code for programming challenge 1
 
+## Brief Description of the Program:
 
-* Question 1: Reverse a string without string reverse inbuilt function. 
-* Question 2: Check for Palindrome.
-* Question 3: Retrieving data from database (hard-coded data - contains no link to actual database) to demonstrate data structure knowledge. 
+* This program contains two threads which shares two queues.
+* Randomizer thread generates random numbers between 1 and 100 (customizable) and sends it to the input queue.
+* Prime Thread receives the numbers from the inputQueue, checks if they are prime and writes the result to the output queue 
+* Randomizer thread then receives the result from the output queue and displays it. 
+* A blocking queue is used for this purpose.
+* Threads run infinitely until you stop it. 
 
-## Instructions: 
+## Instructions to run the program
 
-* Import the projects or copy-paste the code to your editor. I've used IntelliJ as my Editor. 
-* Run the main program for each question. Video link below. 
+* Import the project in your IDE (I've used Eclipse)
+* Run App.java and view the results in the console. 
 
+## Video to see the code in action.
 
-## Video demonstration for the programs
+https://streamable.com/nsnpr
 
-https://streamable.com/1huun
-
-
-
-
+Please let me know if you need any more information. 
